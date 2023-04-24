@@ -5,8 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TAO.Application.Abstractions;
-using TAO.Persistence.Concretes;
 using TAO.Persistence.Configurations;
 using TAO.Persistence.Contexts;
 
@@ -19,7 +17,7 @@ namespace TAO.Persistence
 
            
             services.AddDbContext<TaoDbContext>(options => options.UseSqlServer(Configurations.Configuration.ConnectionString));
-            services.AddSingleton<IProductService, ProductService>();
+            
         }
     }
 }

@@ -14,7 +14,7 @@ namespace TAO.Application.Repositories
         bool Remove(T entity);
         Task<bool> Remove(string id);
         bool RemoveRange(List<T> entities);
-        bool UpdateAsync(T entity);
+        bool Update(T entity);
         Task<int> SaveAsync();
 
     }
