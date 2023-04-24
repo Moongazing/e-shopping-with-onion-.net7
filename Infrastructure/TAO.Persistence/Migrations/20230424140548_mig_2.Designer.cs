@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TAO.Persistence.Contexts;
 
@@ -11,9 +12,11 @@ using TAO.Persistence.Contexts;
 namespace TAO.Persistence.Migrations
 {
     [DbContext(typeof(TaoDbContext))]
-    partial class TaoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230424140548_mig_2")]
+    partial class mig_2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
