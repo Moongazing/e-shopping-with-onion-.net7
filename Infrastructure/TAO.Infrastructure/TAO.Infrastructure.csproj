@@ -10,4 +10,11 @@
     <ProjectReference Include="..\..\Core\TAO.Application\TAO.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.16.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.21.0" />
+    <PackageReference Include="QRCoder" Version="1.4.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.21.0" />
+  </ItemGroup>
+
 </Project>

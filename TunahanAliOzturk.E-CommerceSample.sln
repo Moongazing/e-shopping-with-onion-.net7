@@ -5,24 +5,26 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{89D526A3-C57A-4E3E-B8D2-C278342FF0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.Domain", "Core\TAO.Domain\TAO.Domain.csproj", "{58BDD360-C4E0-42C7-A5E2-324FB7E19464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.Domain", "Core\TAO.Domain\TAO.Domain.csproj", "{58BDD360-C4E0-42C7-A5E2-324FB7E19464}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.Application", "Core\TAO.Application\TAO.Application.csproj", "{26719FCC-26B4-4565-968B-42C935009DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.Application", "Core\TAO.Application\TAO.Application.csproj", "{26719FCC-26B4-4565-968B-42C935009DF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{01F257B0-8DCD-4CA7-A3A9-B966F6F88A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.Infrastructure", "Infrastructure\TAO.Infrastructure\TAO.Infrastructure.csproj", "{D066993B-256E-4ADD-AB59-DD3764BD8595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.Infrastructure", "Infrastructure\TAO.Infrastructure\TAO.Infrastructure.csproj", "{D066993B-256E-4ADD-AB59-DD3764BD8595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.Persistence", "Infrastructure\TAO.Persistence\TAO.Persistence.csproj", "{B8FBF0C8-65B9-4FB6-9558-4626889BB41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.Persistence", "Infrastructure\TAO.Persistence\TAO.Persistence.csproj", "{B8FBF0C8-65B9-4FB6-9558-4626889BB41E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D0BA301A-16AD-4632-8B0F-C857F3A7FE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.Api", "Presentation\TAO.Api\TAO.Api.csproj", "{FAA40F5F-876C-43BF-B506-35981C2EB6D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAO.Api", "Presentation\TAO.Api\TAO.Api.csproj", "{FAA40F5F-876C-43BF-B506-35981C2EB6D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA9B98A9-1652-40CF-8B7E-A12CBA036C60}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAO.SignalR", "Infrastructure\TAO.SignalR\TAO.SignalR.csproj", "{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{FAA40F5F-876C-43BF-B506-35981C2EB6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA40F5F-876C-43BF-B506-35981C2EB6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA40F5F-876C-43BF-B506-35981C2EB6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{D066993B-256E-4ADD-AB59-DD3764BD8595} = {01F257B0-8DCD-4CA7-A3A9-B966F6F88A17}
 		{B8FBF0C8-65B9-4FB6-9558-4626889BB41E} = {01F257B0-8DCD-4CA7-A3A9-B966F6F88A17}
 		{FAA40F5F-876C-43BF-B506-35981C2EB6D1} = {D0BA301A-16AD-4632-8B0F-C857F3A7FE89}
+		{6D542ACE-53BF-4B34-BD22-5A25AC8AB9C6} = {01F257B0-8DCD-4CA7-A3A9-B966F6F88A17}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F06972A6-80B2-424E-A2EC-39B34846B34C}
