@@ -16,11 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\TAO.Infrastructure\TAO.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\TAO.Persistence\TAO.Persistence.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
